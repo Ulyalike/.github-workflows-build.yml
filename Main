@@ -3,21 +3,17 @@ public class Main {
         Horse horse = new Horse("Лошадь");
         horse.eat();
         horse.walk();
-
         Tiger tiger = new Tiger("Тигр");
         tiger.eat("говядина");
         tiger.eat("рыба");
-
         Dolphin dolphin = new Dolphin("Дельфин");
         dolphin.eat("рыба");
         dolphin.eat("говядина");
         dolphin.swim();
-
         Eagle eagle = new Eagle("Орел");
         eagle.eat("говядина");
         eagle.eat("рыба");
         eagle.fly();
-
         Camel camel = new Camel("Верблюд");
         camel.eat();
         camel.walk();
